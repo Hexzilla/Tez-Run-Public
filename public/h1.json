@@ -1,0 +1,38 @@
+{
+  "name": "Racing Horse 1",
+  "description": "Racing Horse\nCreated by Lex (@LexUnity)",
+  "rights": "No License / All Rights Reserved",
+  "minter": "tz1bxwduvRwBhq59FmThGKD5ceDFadr57JTq",
+  "date": "2023-06-06T19:38:48.907Z",
+  "tags": [],
+  "symbol": "OBJKTCOM",
+  "artifactUri": "ipfs://QmY24jKf8ToPHfaGtFzXAzGJ1vySgsX8CSC7hPtozGVLcC",
+  "displayUri": "ipfs://QmY24jKf8ToPHfaGtFzXAzGJ1vySgsX8CSC7hPtozGVLcC",
+  "thumbnailUri": "ipfs://QmY24jKf8ToPHfaGtFzXAzGJ1vySgsX8CSC7hPtozGVLcC",
+  "image": "ipfs://QmY24jKf8ToPHfaGtFzXAzGJ1vySgsX8CSC7hPtozGVLcC",
+  "creators": [
+    "tz1PiXLn2nTnudPaRQSwvcbYFoR4kMFHhu5V"
+  ],
+  "formats": [
+    {
+      "uri": "ipfs://QmY24jKf8ToPHfaGtFzXAzGJ1vySgsX8CSC7hPtozGVLcC",
+      "mimeType": "image/jpeg",
+      "fileName": "h1.jpg",
+      "fileSize": 100778,
+      "dimensions": {
+        "value": "320x240",
+        "unit": "px"
+      }
+    }
+  ],
+  "attributes": [],
+  "decimals": 0,
+  "isBooleanAmount": false,
+  "shouldPreferSymbol": false,
+  "royalties": {
+    "decimals": 3,
+    "shares": {
+      "tz1PiXLn2nTnudPaRQSwvcbYFoR4kMFHhu5V": 150
+    }
+  }
+}
