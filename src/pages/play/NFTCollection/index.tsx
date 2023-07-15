@@ -6,22 +6,22 @@ const NFTCollection = () => {
   return (
     <Grid container justifyContent="space-between" spacing={2}>
       <Grid item xs={3}>
-        <NFTCard name="Hottez" tokenId={0} imgUrl="/h1.jpg" />
+        <NFTCard name="Hottez" tokenId={0} imgUrl="/h1.png" />
       </Grid>
       <Grid item xs={3}>
-        <NFTCard name="Snazzy FKR" tokenId={1} imgUrl="/h2.jpg" />
+        <NFTCard name="Snazzy FKR" tokenId={1} imgUrl="/h2.png" />
       </Grid>
       <Grid item xs={3}>
-        <NFTCard name="Neonz" tokenId={2} imgUrl="/h3.jpg" />
+        <NFTCard name="Neonz" tokenId={2} imgUrl="/h3.png" />
       </Grid>
       <Grid item xs={3}>
-        <NFTCard name="Hic et Equum" tokenId={3} imgUrl="/h4.jpg" />
+        <NFTCard name="Hic et Equum" tokenId={3} imgUrl="/h4.png" />
       </Grid>
       {/* <Grid item>
-        <NFTCard name="Snazzy FKR" tokenId={1} imgUrl="/h1.jpg" />
+        <NFTCard name="Snazzy FKR" tokenId={1} imgUrl="/h1.png" />
       </Grid>
       <Grid item>
-        <NFTCard name="Neonz" tokenId={2} imgUrl="/h4.jpg" />
+        <NFTCard name="Neonz" tokenId={2} imgUrl="/h4.png" />
       </Grid> */}
     </Grid>
   );
