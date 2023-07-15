@@ -99,7 +99,7 @@ export const Footer = (props) => (
             sx={{ mt: 1 }}
             variant="caption"
           >
-            © 2021 Devias.
+            © 2023 Blockchain Alchemy.
           </Typography>
         </Grid>
         {sections.map((section, index) => (
