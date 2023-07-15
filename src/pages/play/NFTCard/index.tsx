@@ -39,8 +39,8 @@ const NFTCard = ({ name, tokenId, imgUrl }: any) => {
 
   return (
     <>
-      <Card sx={{ width: '160px', marginTop: 4 }}>
-        <CardMedia sx={{ height: 100 }} image={imgUrl} title="green iguana" />
+      <Card sx={{ marginTop: 4 }}>
+        <CardMedia sx={{ height: '240px' }} image={imgUrl} title="green iguana" />
         <CardContent sx={{ padding: '16px 24px' }}>
           <Typography variant="h6" component="div">
             {name}
