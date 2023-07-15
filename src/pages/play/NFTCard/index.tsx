@@ -28,7 +28,9 @@ const NFTCard = ({ name, tokenId, imgUrl }: any) => {
       if (!result) {
         toast.error("Failed to mint token!", { id: toastId });
       } else {
-        toast.success("You has been successfully minted token!", { id: toastId });
+        toast.success("You has been successfully minted token!", {
+          id: toastId,
+        });
       }
     } catch (error) {
       toast.error("Failed to mint token!", { id: toastId });
@@ -37,18 +39,18 @@ const NFTCard = ({ name, tokenId, imgUrl }: any) => {
 
   return (
     <>
-      <Card sx={{ maxWidth: 345 }}>
-        <CardMedia sx={{ height: 200 }} image={imgUrl} title="green iguana" />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+      <Card sx={{ width: '160px', marginTop: 4 }}>
+        <CardMedia sx={{ height: 100 }} image={imgUrl} title="green iguana" />
+        <CardContent sx={{ padding: '16px 24px' }}>
+          <Typography variant="h6" component="div">
             {name}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          {/* <Typography variant="body2" color="text.secondary">
             Lizards are a widespread group of squamate reptiles, with over 6,000
             species, ranging across all continents except Antarctica
-          </Typography>
+          </Typography> */}
         </CardContent>
-        <CardActions>
+        <CardActions sx={{ padding: '4px' }}>
           <Button
             variant="contained"
             fullWidth
